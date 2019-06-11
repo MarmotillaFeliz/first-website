@@ -1,0 +1,232 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: rgb(232, 225, 225) url(../images/Layer\ 1.png);
+	background-size: cover;
+	font-family: Arial;
+}
+
+blockquote {
+	color: #fff;
+}
+
+h1.title {
+	color: #fff;
+	text-align: center;
+	font-size: 8em;
+}
+
+.title-image {
+	background: url(../images/ren-ran-232079-unsplash.jpg);
+	background-size: cover;
+	padding: 200px;
+}
+
+.sentence {
+	color: #fff;
+	text-align: center;
+	font-size: 2em;
+}
+
+.autor {
+	color: #fff;
+	text-align: right;
+	font-size: 1em;
+}
+
+h1.about-us {
+	color: #fff;
+	font-size: 2em;
+}
+
+.img-menu {
+	position: absolute;
+	height: 150px;
+	width: 100%;
+	object-fit: cover;
+}
+
+#about-us {
+	background: url(../images/vadim-l-10940-unsplash.jpg);
+	background-size: cover;
+	color: #fff;
+	text-align: center;
+	height: 400px;
+	margin-top: 14em;
+	margin-bottom: 3em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center
+}
+
+#search-plant {
+	background: url(../images/annie-spratt-256177-unsplash.jpg);
+	background-size: cover;
+	color: #fff;
+	text-align: center;
+	height: 400px;
+	margin-bottom: 3em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center
+}
+
+#why-plants {
+	background: url(../images/ren-ran-232078-unsplash.jpg);
+	background-size: cover;
+	color: #fff;
+	text-align: center;
+	height: 400px;
+	margin-bottom: 3em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center
+}
+
+#around-us {
+	background: url(../images/samuel-zeller-62819-unsplash.jpg);
+	background-size: cover;
+	color: #fff;
+	text-align: center;
+	height: 400px;
+	margin-bottom: 3em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center
+}
+
+ul.sdt_menu {
+	margin: 0 auto;
+	padding: 0 auto;
+	list-style: none;
+	font-family: "Myriad Pro", "Trebuchet MS", sans-serif;
+	font-size: 14px;
+	width: 1200px;
+	margin-top: 30px;
+}
+
+ul.sdt_menu a {
+	text-decoration: none;
+	outline: none;
+}
+
+ul.sdt_menu li {
+	float: left;
+	width: 170px;
+	height: 85px;
+	position: relative;
+	cursor: pointer;
+	margin-right: 2em;
+}
+
+ul.sdt_menu li>a {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 170px;
+	height: 85px;
+	z-index: 12;
+	background: transparent url(../images/overlay.png) no-repeat bottom right;
+}
+
+ul.sdt_menu li a img {
+	border: none;
+	position: absolute;
+	width: 0px;
+	height: 0px;
+	bottom: 0px;
+	left: 85px;
+	z-index: 100;
+	background-size: cover;
+}
+
+ul.sdt_menu li span.sdt_wrap {
+	position: absolute;
+	top: 25px;
+	left: 0px;
+	width: 170px;
+	height: 60px;
+	z-index: 15;
+}
+
+ul.sdt_menu li span.sdt_active {
+	position: absolute;
+	background: rgb(183, 228, 242);
+	top: 85px;
+	width: 170px;
+	height: 0px;
+	left: 0px;
+	z-index: 14;
+}
+
+ul.sdt_menu li span span.sdt_link,
+ul.sdt_menu li span span.sdt_descr,
+ul.sdt_menu li div.sdt_box a {
+	margin-left: 15px;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px #000;
+}
+
+ul.sdt_menu li span span.sdt_link {
+	color: #fff;
+	font-size: 24px;
+	float: left;
+	clear: both;
+}
+
+ul.sdt_menu li span span.sdt_descr {
+	color: #0B75AF;
+	float: left;
+	clear: both;
+	width: 155px;
+	/*For dumbass IE7*/
+	font-size: 10px;
+	letter-spacing: 1px;
+}
+
+ul.sdt_menu li div.sdt_box {
+	display: block;
+	position: absolute;
+	width: 170px;
+	overflow: hidden;
+	height: 170px;
+	top: 85px;
+	left: 0px;
+	display: none;
+	background: #000;
+}
+
+ul.sdt_menu li div.sdt_box a {
+	float: left;
+	clear: both;
+	line-height: 30px;
+	color: #0B75AF;
+}
+
+ul.sdt_menu li div.sdt_box a:first-child {
+	margin-top: 15px;
+}
+
+ul.sdt_menu li div.sdt_box a:hover {
+	color: #fff;
+}
+
+footer {
+	background: url(../images/thomas-verbruggen-94814-unsplash.jpg) bottom;
+	background-size: cover;
+	height: 500px;
+	color: rgb(255, 255, 255);
+	font-size: 0.7em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center
+}
