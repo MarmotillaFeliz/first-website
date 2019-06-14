@@ -4,6 +4,12 @@
 	box-sizing: border-box;
 }
 
+nav {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
 body {
 	background: rgb(232, 225, 225) url(../images/background_1.jpg);
 	background-size: cover;
